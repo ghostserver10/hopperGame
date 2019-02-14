@@ -217,7 +217,7 @@ def main():
 				DesiredDisplacement = math.copysign(0.98, DesiredDisplacement)######Linear controller
 			DesiredAngle = math.asin(DesiredDisplacement)
 			ErrorAngle = DesiredAngle + Angle
-			Torque = ErrorAngle*500000 + AngleSpeed*100000#1000000
+			Torque = ErrorAngle*1000000 + AngleSpeed*50000#1000000
 
 		if(abs(Torque)>10000000):
 			Torque = math.copysign(10000000,Torque)
