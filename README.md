@@ -1,2 +1,2 @@
 # hopperGame
-Simplified version of game for debugging
+Simplified version of the game for debugging
